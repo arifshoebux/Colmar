@@ -27,7 +27,7 @@ body {
     font-weight: 400;
   }
 
-  .toplinks {
+  .toplinks ul li {
     margin-right: 24px;
     display: inline;
     font-size: 1.5rem;
@@ -45,9 +45,19 @@ body {
     display: none;
   }
 
+  /* full width*/
+
+  .fullw {
+    width: 100%;
+  }
+  
+  .fullw h1 {
+    margin-top: 32px;  
+  }
+
   /* Learn Something New Section*/
 
-.learnsection .students {
+.fullw .students {
   display: flex;
   background-color: #A8A8A8;
   justify-content: space-between;
@@ -71,7 +81,7 @@ body {
 
 
 .startCTA {
-  color: #F4F4F4;
+  color: #ffffff;
   background-color: #585858;
   width: 100%;
   border: none;
@@ -80,3 +90,91 @@ body {
   font-size: 2rem;
   width: 80%;
 }
+
+/* Section 2 Right and Left Areas*/
+
+.section2 {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .leftinfo {
+    margin-left: 24px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  
+  .leftinfo img {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+  }
+  
+  .section2image {
+    width: 60%;
+  }
+  
+  /* 1 instance of rightinfo*/
+  .rightinfo {
+    display: inline-flex;
+    margin-top: 32px;
+    margin-left: 16px;
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 40%;
+  }
+  
+  #rightside {
+    margin-left: -41%;
+  }
+  
+  .rightarea {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .rightinfo :hover {
+    background-color: #A8A8A8;
+  }
+  
+  .rightarea img {
+    height: auto;
+    max-height: 200px;
+    max-width: 35%;
+    padding: 16px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .rightarea-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 65%;
+    line-height: 1.5;
+    margin-left: 16px;
+  }
+  
+  
+  
+  #rightside-border1 {
+    border-left: 1px #A8A8A8 solid;
+    height: 100%;
+    border-bottom: 1px #A8A8A8 solid;
+  }
+  
+  #rightside-border2 {
+    border-left: 1px #A8A8A8 solid;
+    height: 100%;
+    border-bottom: 1px #A8A8A8 solid;
+  }
+  
+  #rightside-border3 {
+    border-left: 1px #A8A8A8 solid;
+    height: 100%;
+    
+  }
+  
