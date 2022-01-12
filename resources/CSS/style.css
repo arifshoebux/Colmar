@@ -14,15 +14,29 @@ body {
     align-items: center;
   }
 
-  .colmar {
+  .topcolmar {
     font-size: 1.5rem;
     font-family: 'Merriweather';
     font-weight: 800;
   }
   
-  .academy{
-    color: #A0A0A0;
+  .topacademy{
+    color: #A8A8A8;
     font-size: 1.5rem;
     font-family: 'Merriweather';
     font-weight: 400;
+  }
+
+  .toplinks {
+    margin-right: 24px;
+    display: inline;
+    font-size: 1.5rem;
+  }
+
+  .lionlogo {
+    margin-left: 24px;
+  }
+
+  .mobile {
+    display: none;
   }
