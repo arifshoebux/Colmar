@@ -1,0 +1,28 @@
+body {
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Merriweather', sans-serif;
+    background-color: #fff;
+    color: #404040;
+  }
+
+  topbanner {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .colmar {
+    font-size: 1.5rem;
+    font-family: 'Merriweather';
+    font-weight: 800;
+  }
+  
+  .academy{
+    color: #A0A0A0;
+    font-size: 1.5rem;
+    font-family: 'Merriweather';
+    font-weight: 400;
+  }
